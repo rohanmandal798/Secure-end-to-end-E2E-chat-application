@@ -26,12 +26,4 @@ python server.py
 1. openssl genpkey -algorithm RSA -out private_key_pkcs1.pem -pkeyopt rsa_keygen_bits:2048
 2. openssl rsa -pubout -in private_key_pkcs1.pem -out server_public.pem
 
-## Folder Structure
 
-Secure end-to-end(E2E)chatapplication /
-│── server.py        # Secure chat server
-│── client.py        # Chat client application
-│── encryption.py    # Encryption & decryption functions
-│── requirements.txt # Dependencies
-│── README.md        # Documentation
-│── tests/           # Unit tests
